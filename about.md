@@ -3,13 +3,6 @@ layout: page
 title: About
 permalink: /about/
 ---
+![My helpful screenshot]({{ site.url }}/assets/natashapic.jpg)
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Hi! I'm Natasha! I'm a journalist, video producer, science communicator, and aspiring web developer who has worked for a few startups that you might have heard of - Reddit and BuzzFeed. After observing a huge disconnect between writers/producers and coders, I decided to learn to program to bridge that gap and to gain the power to create my own platform. Follow me on my journey and learn to code your own blog, too.
