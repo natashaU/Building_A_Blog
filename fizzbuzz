@@ -1,0 +1,53 @@
+//fizzbuzz
+
+for (var i = 1; i <= 100; i++) {
+  if ((i % 5 === 0) && (i % 3 === 0 )) {
+  console.log("fizzbuzz")
+} else if (i % 3 === 0) {
+  console.log("fizz")
+} else if ( i % 5 === 0) {
+ console.log("buzz")
+} else {
+  console.log (i)
+ }
+}
+//exercise 6 FizzBuZz Rises (oh noes!)
+
+// Write a function this_that that takes in two strings word1 and word2 and re-implements fizzBuzz using those two words instead of 'fizz' and 'buzz'. For multiples of three print word1 and for the multiples of five print word2. For numbers which are multiples of both three and five print word1 + word2) Allow the user to input a count_up_to argument//
+
+var this_that = function(count_up_to) {
+  for (n = 1; n <= count_up_to; n++ ) {
+  if ((n % 3 === 0) && (n % 5===0)) {
+    console.log("word1" + "word2")
+  } else if (n % 3 === 0) {
+    console.log("word1")
+  } else if (n % 5 === 0) {
+    console.log("word2")
+  } else {
+    console.log(n)
+  }
+
+  } //end of for loop 
+} // end of function
+
+this_that(50)
+
+// Allow the user to input fizz_num and buzz_num arguments to set the word substitutions to multiples of something other than 3 and 5.//
+
+var this_that = function(fizz_num, buzz_num, count_up_to) {
+  for (n = 1; n <= count_up_to; n++ ) {
+  if ((n % fizz_num === 0) && (n % buzz_num === 0)) {
+    console.log("word1" + "word2")
+  } else if (n % fizz_num === 0) {
+    console.log("word1")
+  } else if (n % buzz_num === 0) {
+    console.log("word2")
+  } else {
+    console.log(n)
+  }
+
+  } //end of for loop 
+} // end of function
+
+this_that(2, 4, 50)
+
