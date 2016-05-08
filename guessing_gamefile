@@ -1,0 +1,19 @@
+//Make a game where the user guesses a number 1-10. The user has 10 guesses to
+//pick the correct number.0
+
+var computerChoice = Math.floor(Math.random() * 11)
+var userOutput = prompt("Pick a number between 1 - 10")
+var userNumber = parseInt(userOutput)
+var i = 1
+var numberIsTrue = false
+while ((i < 10) && (isNaN(userNumber) === numberIsTrue)) {
+  if (userNumber === computerChoice) {
+  console.log("you guessed correctly!");
+  break;
+} else {
+   userOutput = prompt("Pick a number between 1 - 10")
+     userNumber = parseInt(userOutput)
+}
+i++;
+}
+console.log("The correct number is " + computerChoice)
